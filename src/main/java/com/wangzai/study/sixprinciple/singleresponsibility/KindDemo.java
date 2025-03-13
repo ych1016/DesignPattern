@@ -13,9 +13,9 @@ import lombok.Data;
 
 public class KindDemo {
     public static void main(String[] args) {
-//        Animal animal = new Animal();
-//        animal.eating("羊");
-//        animal.eating("牛");
+        Animal animal = new Animal();
+        animal.eating("羊");
+        animal.eating("牛");
         MeatAnimal meatAnimal = new MeatAnimal();
         meatAnimal.eating("狼");
         GrassAnimal grassAnimal = new GrassAnimal();
@@ -55,6 +55,16 @@ class MeatAnimal extends AnimalFather{
 class GrassAnimal extends AnimalFather {
     @Override
     public void eating(String name) {
+        System.out.println(name + "吃草");
+    }
+}
+
+class Animal2 {
+    public void eatMeat(String name){
+        System.out.println(name + "吃肉");
+    }
+
+    public void eatGrass(String name){
         System.out.println(name + "吃草");
     }
 }
