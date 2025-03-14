@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22753c42-6b28-4237-8d0b-204ef4a47c3d" name="Changes" comment="feature[单一职责原则]: 单一职责原则示例代码">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/factory/abstractfactory/AbstractFactoryCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/factory/easyfactory/EasyFactoryCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/factory/factoryfunction/FactoryFunctionCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/factory/nofactory/NoFactoryCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/singleton/EagerInitializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/singleton/LazyInitializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/singleton/RegisterInitializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/openclose/OpenCloseDemo.java" afterDir="false" />
+    <list default="true" id="22753c42-6b28-4237-8d0b-204ef4a47c3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/create/builder/BuilderPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/liskovsubstitution/LiskovSubstitutionDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/liskovsubstitution/LiskovSubstitutionDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/liskovsubstitution/LiskovSubstitutionDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/liskovsubstitution/LiskovSubstitutionDemo04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/singleresponsibility/KindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/sixprinciple/singleresponsibility/KindDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LazyInitializationDemo">
+  <component name="RunManager" selected="Application.BuilderPatternDemo">
     <configuration name="AbstractFactoryCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wangzai.study.create.factory.abstractfactory.AbstractFactoryCustomer" />
       <module name="DesignPattern" />
@@ -75,38 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyFactoryCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.create.factory.easyfactory.EasyFactoryCustomer" />
+    <configuration name="BuilderPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.create.builder.BuilderPatternDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangzai.study.create.factory.easyfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryFunctionCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.create.factory.factoryfunction.FactoryFunctionCustomer" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangzai.study.create.factory.factoryfunction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KindDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.sixprinciple.singleresponsibility.KindDemo" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangzai.study.sixprinciple.singleresponsibility.*" />
+          <option name="PATTERN" value="com.wangzai.study.create.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +95,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LiskovSubstitutionDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.sixprinciple.liskovsubstitution.LiskovSubstitutionDemo01" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangzai.study.sixprinciple.liskovsubstitution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiskovSubstitutionDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.sixprinciple.liskovsubstitution.LiskovSubstitutionDemo02" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangzai.study.sixprinciple.liskovsubstitution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderPatternDemo" />
+        <item itemvalue="Application.LiskovSubstitutionDemo02" />
+        <item itemvalue="Application.LiskovSubstitutionDemo01" />
         <item itemvalue="Application.LazyInitializationDemo" />
         <item itemvalue="Application.AbstractFactoryCustomer" />
-        <item itemvalue="Application.FactoryFunctionCustomer" />
-        <item itemvalue="Application.EasyFactoryCustomer" />
-        <item itemvalue="Application.KindDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +146,8 @@
       <workItem from="1741764228353" duration="59000" />
       <workItem from="1741780648300" duration="5317000" />
       <workItem from="1741828449759" duration="12815000" />
-      <workItem from="1741864963718" duration="4775000" />
+      <workItem from="1741864963718" duration="5417000" />
+      <workItem from="1741914448959" duration="8077000" />
     </task>
     <task id="LOCAL-00001" summary="feature[初始化项目]: 第一次提交">
       <option name="closed" value="true" />
@@ -170,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741764274384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feature[单例模式]: 单例模式实现代码demo">
+      <option name="closed" value="true" />
+      <created>1741872494579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741872494579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +185,7 @@
     </ignored-roots>
     <MESSAGE value="feature[初始化项目]: 第一次提交" />
     <MESSAGE value="feature[单一职责原则]: 单一职责原则示例代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature[单一职责原则]: 单一职责原则示例代码" />
+    <MESSAGE value="feature[单例模式]: 单例模式实现代码demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature[单例模式]: 单例模式实现代码demo" />
   </component>
 </project>
