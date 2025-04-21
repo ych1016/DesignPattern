@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22753c42-6b28-4237-8d0b-204ef4a47c3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/chainofresponsibility/ChainOfResponsibilityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/command/CommandAdvancedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/command/CommandDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/mediator/MediatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/observer/ObserverDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/strategy/StrategyDesignPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/temporary/TemporaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/visitor/VisitorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/adapter/AdapterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/adapter/InterfaceAdapterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/bridging/BridGingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/composite/CompositeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/decorator/DecoratorDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/decorator/DecoratorDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/facade/FacadeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/flyweight/FlyweightDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/structure/proxy/ProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/interpreter/InterpreterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/iterator/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/memento/MementoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangzai/study/behavior/state/StateDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CommandAdvancedDemo">
+  <component name="RunManager" selected="Application.InterpreterDemo">
     <configuration name="CommandAdvancedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.command.CommandAdvancedDemo" />
       <module name="DesignPattern" />
@@ -82,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.command.CommandDemo" />
+    <configuration name="InterpreterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.interpreter.InterpreterDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangzai.study.behavior.command.*" />
+          <option name="PATTERN" value="com.wangzai.study.behavior.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.mediator.MediatorDemo" />
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.iterator.IteratorDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangzai.study.behavior.mediator.*" />
+          <option name="PATTERN" value="com.wangzai.study.behavior.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.observer.ObserverDemo" />
+    <configuration name="MementoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.memento.MementoDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangzai.study.behavior.observer.*" />
+          <option name="PATTERN" value="com.wangzai.study.behavior.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.visitor.VisitorDemo" />
+    <configuration name="StateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangzai.study.behavior.state.StateDemo" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangzai.study.behavior.visitor.*" />
+          <option name="PATTERN" value="com.wangzai.study.behavior.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterpreterDemo" />
+        <item itemvalue="Application.IteratorDemo" />
+        <item itemvalue="Application.MementoDemo" />
+        <item itemvalue="Application.StateDemo" />
         <item itemvalue="Application.CommandAdvancedDemo" />
-        <item itemvalue="Application.CommandDemo" />
-        <item itemvalue="Application.MediatorDemo" />
-        <item itemvalue="Application.VisitorDemo" />
-        <item itemvalue="Application.ObserverDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +158,9 @@
       <workItem from="1743075650796" duration="1922000" />
       <workItem from="1743384294492" duration="3000" />
       <workItem from="1743389901549" duration="7842000" />
-      <workItem from="1743475944745" duration="10786000" />
+      <workItem from="1743475944745" duration="10888000" />
+      <workItem from="1743513098986" duration="4000" />
+      <workItem from="1743581636975" duration="6769000" />
     </task>
     <task id="LOCAL-00001" summary="feature[初始化项目]: 第一次提交">
       <option name="closed" value="true" />
@@ -213,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742874114006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feature[挖个坑]: 剩下状态模式 + 备忘录模式 + 迭代器模式 + 解释器模式">
+      <option name="closed" value="true" />
+      <created>1743494603329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743494603329</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +225,7 @@
     <MESSAGE value="feature[单例模式]: 单例模式实现代码demo" />
     <MESSAGE value="feature[里氏替换原则 + 建造者模式]: 里氏替换原则 + 建造者模式demo代码实现" />
     <MESSAGE value="feature[接口隔离原则 + 迪米特法则 + 原型模式]: 接口隔离原则 + 迪米特法则 + 原型模式demo代码实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature[接口隔离原则 + 迪米特法则 + 原型模式]: 接口隔离原则 + 迪米特法则 + 原型模式demo代码实现" />
+    <MESSAGE value="feature[挖个坑]: 剩下状态模式 + 备忘录模式 + 迭代器模式 + 解释器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature[挖个坑]: 剩下状态模式 + 备忘录模式 + 迭代器模式 + 解释器模式" />
   </component>
 </project>
